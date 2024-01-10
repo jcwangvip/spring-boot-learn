@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gs-rest
+
+tp:
+  default:
+    corePoolSize: 5
+    maxPoolSize: 10
+    keepAliveSeconds: 60
+    queueCapacity: 20
