@@ -6,13 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Slf4j
@@ -55,15 +49,7 @@ public class ScratchService {
 
 
         test1(mappings);
-//        test2();
 
-
-    }
-
-    private static void test2() {
-        Map<String, String> map = new HashMap<>();
-        map.put("A", "B");
-        map.put("B", "C");
 
     }
 

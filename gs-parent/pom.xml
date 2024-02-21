@@ -3,6 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- Inherit defaults from Spring Boot -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -28,7 +29,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j-simple.version>1.7.26</slf4j-simple.version>
         <commons-lang.version>3.4</commons-lang.version>
-        <commons-collections.version>4.2</commons-collections.version>
+        <commons-collections.version>4.4</commons-collections.version>
     </properties>
 
     <dependencies>
@@ -57,6 +58,7 @@
     <build>
         <finalName>gs-rest-service</finalName>
         <plugins>
+            <!-- Package as an executable jar -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
